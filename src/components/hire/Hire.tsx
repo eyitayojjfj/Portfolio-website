@@ -72,7 +72,6 @@ const Hire: React.FC = () => {
             </div>
 
             <div className="input-box">
-            <label htmlFor="phone-number">Phone</label>
              <input
              type="phone-number"
              id="phone-number"
@@ -83,7 +82,6 @@ const Hire: React.FC = () => {
                />
 
 
-              <label htmlFor="subject">Subject</label>
               <input
                 type="text"
                 placeholder="Subject"

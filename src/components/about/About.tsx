@@ -15,9 +15,15 @@ const About: React.FC = () => {
             <div>
           <h2>CAREER OBJECTIVE</h2><br /><br />
           <p>
-            A dedicated and highly motivated Front-End web developer seeking <br />an 
-            internship position to apply academic knowledge and gain <br />  practical experience 
-            in front end development.
+          As a passionate Front-End Developer, I aim 
+          to leverage my expertise in HTML, CSS, and JavaScript to 
+          create dynamic, user-friendly web applications that enhance user
+           experience and engagement. With a strong foundation in responsive 
+           design and modern frameworks like React and , I am dedicated 
+           to staying updated with the latest industry trends and best practices. 
+           My goal is to contribute to an innovative team where I can collaborate on 
+           cutting-edge projects, tackle challenging problems, and continuously grow my skills 
+          while delivering high-quality, visually appealing interfaces that align with business objectives.
           </p>
           </div>
 
@@ -28,7 +34,7 @@ const About: React.FC = () => {
 
 
         <section className="info">
-        <div className='img2'>
+        <div className='img1'>
           <img src="/images/web2.jpeg" width='330px' height='300px' alt="" />
           </div>
 
@@ -36,10 +42,10 @@ const About: React.FC = () => {
           <div>
           <h2>SKILLS</h2><br /><br />
           <p>
-             HTML  CSS  Javascript  REACT  JSX  REDUX <br />
-             Responsive UI  State Management  CSS Preprocessors. <br />
-             Version Control/GIT  Browser Developer Tools TeamWork <br />
-             Soft Skills  Willingness To Learn.
+             HTML,  CSS,  Javascript,  REACT,  JSX,  REDUX, <br />
+             Responsive UI,  State Management,  CSS Preprocessors, <br />
+             Version Control/GIT,  Browser Developer Tools, Typescript, TeamWork, <br />
+             Soft Skills,  Willingness To Learn.
           </p>
           </div>
         </section><br /><br />

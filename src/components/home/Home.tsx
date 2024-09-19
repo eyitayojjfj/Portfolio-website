@@ -7,7 +7,7 @@ const Home: React.FC = () => {
 
     const downloadResume = () => {
         const link = document.createElement('a');
-        link.href = '/public/SULAIMON_EYITAYO_BABAJIDE_RESUME.pdf'; // Update with the correct path
+        link.href = '/public/SULAIMON_EYITAYO_BABAJIDE_RESUME.pdf';
         link.setAttribute('download', 'SULAIMON_EYITAYO_BABAJIDE_RESUME.pdf');
         document.body.appendChild(link);
         link.click();
