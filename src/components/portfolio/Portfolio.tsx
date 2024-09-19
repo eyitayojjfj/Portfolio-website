@@ -1,9 +1,11 @@
 import React from 'react';
+import './Portfolio.scss';
 
-const Portfolio: React.FC  = () => {
+
+const Portfolio: React.FC = () => {
   return (
-    <div>Portfolio</div>
-  )
-}
-
-export default Portfolio
+    <div>
+    
+    </div>
+  );
+};export default Portfolio;

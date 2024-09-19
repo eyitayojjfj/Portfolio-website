@@ -81,7 +81,8 @@
 @media (max-width: 768px) {
     .info {
         grid-template-columns: 1fr; 
-        gap: 30px;padding-bottom: 10px;
+        gap: 20px;
+        padding-bottom: 10px;
     }
 
     .info h2 {
@@ -97,7 +98,11 @@
     }
 
     .profile {
-        padding: 40px; 
+        padding: 100px; 
+    }
+    .img1 img{
+        width: 280px;
+        height: 200px;
     }
 }
 

@@ -29,7 +29,7 @@ const About: React.FC = () => {
 
         <section className="info">
         <div className='img2'>
-          <img src="/images/web2.jpeg" width='400px' height='350px' alt="" />
+          <img src="/images/web2.jpeg" width='330px' height='300px' alt="" />
           </div>
 
 

@@ -26,7 +26,7 @@ const Home: React.FC = () => {
                 This is my official portfolio website to showcase all my works related to Front-End web
                 <br />development and UI design
               </p>
-              <a onClick={downloadResume}>Download Resume</a>
+            <a>  <button  onClick={downloadResume}>Download Resume</button></a>
             </div>
             <div id='imge'>
               <img
