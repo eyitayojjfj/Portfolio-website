@@ -71,13 +71,12 @@ const About: React.FC = () => {
         <div className='img1'>
           <img src="/images/code.jpeg" width='400px' height='350px' alt="" />
           </div>
-          
           <div>
           <h2>CERTIFICATES</h2><br /><br />
           <p>
              GOMYCODE Introduction To Web Development <br />
              GOMYCODE Front-End Developer React JS Certified <br />
-            <a href="Sulaimon Eyitayo-Front End Developer - React JS Certified Certificate of Completion.pdf" target="_blank" rel="noopener noreferrer">Download Certificate</a>
+            <a href="/public/Sulaimon Eyitayo-Front End Developer - React JS Certified Certificate of Completion.pdf" target="_blank" rel="noopener noreferrer">Download Certificate</a>
           </p>
           <div className="images">
           <img className="pic1" src="/images/gomy.jpg" width="200px" height="180px"/>

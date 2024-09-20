@@ -24,7 +24,7 @@ const Portfolio: React.FC = () => {
        <div className="layer">
         <h3>Weather app</h3>
         <p>user-friendly web application built with React that allows users to check real-time weather conditions for any location around the world. Leveraging APIs for weather data.</p>
-       <a href=""><FiExternalLink /></a>
+       <a href="https://github.com/eyitayojjfj/Weather-App"><FiExternalLink /></a>
        </div>
      </div>
 

@@ -4,15 +4,6 @@ import { FaGithub } from 'react-icons/fa6';
 import { FaLinkedin } from 'react-icons/fa';
 
 const Home: React.FC = () => {
-
-    const downloadResume = () => {
-        const link = document.createElement('a');
-        link.href = '/public/SULAIMON_EYITAYO_BABAJIDE_RESUME.pdf';
-        link.setAttribute('download', 'SULAIMON_EYITAYO_BABAJIDE_RESUME.pdf');
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      };
     
 
   return (
@@ -26,7 +17,7 @@ const Home: React.FC = () => {
                 This is my official portfolio website to showcase all my works related to Front-End web
                 <br />development and UI design
               </p>
-            <a>  <button  onClick={downloadResume}>Download Resume</button></a>
+            <a href='/public/SULAIMON EYITAYO BABAJIDE RESUME.pdf'><button>Download Resume</button></a>
             </div>
             <div id='imge'>
               <img
