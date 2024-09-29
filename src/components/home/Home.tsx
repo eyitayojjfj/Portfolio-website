@@ -12,7 +12,7 @@ const Home: React.FC = () => {
         <div id='up'>
           <div id='prof'>
             <div id='in'>
-              <h1>I'm <span>Eyitayoyretrytuio</span> Sulaimon</h1>
+              <h1>I'm <span>Eyitayo</span> Sulaimon</h1>
               <p>
                 This is my official portfolio website to showcase all my works related to Front-End web
                 <br />development and UI design
