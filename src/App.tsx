@@ -3,10 +3,10 @@ import { Route, Routes } from 'react-router-dom'
 import './App.scss'
 import Hire from './components/hire/Hire'
 import Home from './components/home/Home'
-import About from './components/about/About'
-import Portfolio from './components/portfolio/Portfolio'
 import Nav from './components/nav/Nav'
 import Footer from './components/footer/Footer'
+import About from './components/about/About'
+import Portfolio from './components/portfolio/Portfolio'
 
 function App() {
 

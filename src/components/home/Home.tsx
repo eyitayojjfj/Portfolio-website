@@ -17,7 +17,7 @@ const Home: React.FC = () => {
                 This is my official portfolio website to showcase all my works related to Front-End web
                 <br />development and UI design
               </p>
-            <a href='/public/SULAIMON EYITAYO BABAJIDE RESUME.pdf' download><button>Download Resume</button></a>
+            <a href='/public/SULAIMON EYITAYO BABAJIDE RESUME.pdf' download='/public/SULAIMON EYITAYO BABAJIDE RESUME.pdf'><button>Download Resume</button></a>
             </div>
             <div id='imge'>
               <img
