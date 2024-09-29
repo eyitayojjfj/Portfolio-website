@@ -76,7 +76,7 @@ const About: React.FC = () => {
           <p>
              GOMYCODE Introduction To Web Development <br />
              GOMYCODE Front-End Developer React JS Certified <br />
-            <a href="/public/Sulaimon Eyitayo-Front End Developer - React JS Certified Certificate of Completion.pdf"  download="/public/Sulaimon Eyitayo-Front End Developer - React JS Certified Certificate of Completion.pdf">Download Certificate</a>
+            <a href="/Sulaimon Eyitayo-Front End Developer - React JS Certified Certificate of Completion.pdf"  download="/Sulaimon Eyitayo-Front End Developer - React JS Certified Certificate of Completion.pdf">Download Certificate</a>
           </p>
           <div className="images">
           <img className="pic1" src="/images/gomy.jpg" width="200px" height="180px"/>
