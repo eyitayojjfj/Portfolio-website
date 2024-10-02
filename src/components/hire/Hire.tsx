@@ -2,7 +2,6 @@ import React, { useState, FormEvent } from 'react';
 import './Hire.scss';
 import emailjs from '@emailjs/browser';
 
-
 const Hire: React.FC = () => {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
@@ -13,9 +12,9 @@ const Hire: React.FC = () => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const serviceId = 'service_ntok78m';
-    const templateId = 'template_bk7bw3l';
-    const publicKey = 'Ahcb3l3w0yDHnjCIC';
+    const serviceId = import.meta.env.VITE_SERVICE_ID;
+    const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
     const templateParams = {
       from_name: name,
@@ -26,19 +25,19 @@ const Hire: React.FC = () => {
       phone: phone,
     };
 
-   emailjs.send(serviceId, templateId, templateParams, publicKey)
-    .then((response) => {
-      alert(`Email sent successfully`);
-      console.log('Email sent successfully', response);
-      setName('');
-      setEmail('');
-      setPhone('');
-      setSubject('');
-      setMessage('');
-    })
-    .catch((error) => {
-      console.error('Error sending email', error);
-    });
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        alert(`Email sent successfully`);
+        console.log('Email sent successfully', response);
+        setName('');
+        setEmail('');
+        setPhone('');
+        setSubject('');
+        setMessage('');
+      })
+      .catch((error) => {
+        console.error('Error sending email', error);
+      });
   };
 
   return (
@@ -59,7 +58,6 @@ const Hire: React.FC = () => {
                 onChange={(e) => setName(e.target.value)}
                 required
               />
-
               <label htmlFor="email"></label>
               <input
                 type="email"
@@ -70,18 +68,15 @@ const Hire: React.FC = () => {
                 required
               />
             </div>
-
             <div className="input-box">
-             <input
-             type="phone-number"
-             id="phone-number"
-             placeholder="Phone Number"
-             value={phone}
-             onChange={(e) => setPhone(e.target.value)}
-             aria-label="Phone Number"
-               />
-
-
+              <input
+                type="tel"
+                id="phone-number"
+                placeholder="Phone Number"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                aria-label="Phone Number"
+              />
               <input
                 type="text"
                 placeholder="Subject"
@@ -90,7 +85,6 @@ const Hire: React.FC = () => {
                 onChange={(e) => setSubject(e.target.value)}
               />
             </div>
-
             <textarea
               id="message"
               cols={30}
@@ -104,7 +98,6 @@ const Hire: React.FC = () => {
           </form>
         </div>
       </div>
-      
     </div>
   );
 };
