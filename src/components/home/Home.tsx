@@ -22,8 +22,8 @@ const Home: React.FC = () => {
             <div id='imge'>
               <img
                 width='300px'
-                height='500px'
-                src="/images/Tboy.jpg"
+                height='400px'
+                src="/images/tayo5.jpg"
                 className="back-img"
                 alt="Eyitayo Sulaimon"
               />
